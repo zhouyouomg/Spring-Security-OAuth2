@@ -22,7 +22,7 @@ public class SpringDataUserDetailsService implements UserDetailsService {
     @Autowired
     UserDao userDao;
 
-    //根据 账号查询用户信息
+    //根据 账号查询用户信息 测试
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
